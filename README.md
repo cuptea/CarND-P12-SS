@@ -4,35 +4,35 @@
 
 ### Build the Neural Network
 
-##### Does the project load the pretrained vgg model?
+##### 1. Does the project load the pretrained vgg model?
 
-passed tests.test_load_vgg(load_vgg, tf) 
+ - Passed tests.test_load_vgg(load_vgg, tf) 
 
-##### Does the project learn the correct features from the images?
+##### 2. Does the project learn the correct features from the images?
 
-passed tests.test_layers(layers)
+ - Passed tests.test_layers(layers)
 
-##### Does the project optimize the neural network?
+##### 3. Does the project optimize the neural network?
 
-passed tests.test_optimize(optimize)
+ - Passed tests.test_optimize(optimize)
 
-##### Does the project train the neural network?
+##### 4. Does the project train the neural network?
 
-passed tests.test_train_nn(train_nn)
+ - Passed tests.test_train_nn(train_nn)
 
 ### Neural Network Training
 
-##### Does the project train the model correctly?
+##### 1. Does the project train the model correctly?
 
-On average, the model decreases loss over time. 
+ - On average, the model decreases loss over time. 
 
-##### Does the project use reasonable hyperparameters?
+##### 2. Does the project use reasonable hyperparameters?
 
-The number of epoch equals 50 and batch size equals 2 (since any larger number result in out of memory error on the AWS GPU instance).
+ - The number of epoch equals 50 and batch size equals 2 (since any larger number result in out of memory error on the AWS GPU instance).
 
-##### Does the project correctly label the road?
+##### 3. Does the project correctly label the road?
 
-Inference result on three test images:
+ - Inference result on three test images:
 
 ![Alt text](./runs/1508422290.994551/um_000054.png?raw=true "Optional Title")
 ![Alt text](./runs/1508422290.994551/umm_000026.png?raw=true "Optional Title")
